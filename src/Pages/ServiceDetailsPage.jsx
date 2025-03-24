@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom"
 import Navbar from "../Components/Navbar"
 
-import { FaWhatsapp } from "react-icons/fa6";
+// import { FaWhatsapp } from "react-icons/fa6";
 import { MdPayments } from "react-icons/md";
 
 const ServiceDetailsPage = () => {
