@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaDownload } from "react-icons/fa6";
 import { SiGoogleclassroom } from "react-icons/si";
+import assets from "../../Assets/assets";
 
 
 const HeroSection = () => {
@@ -36,7 +37,7 @@ const HeroSection = () => {
             </div>
             
             {/* Image/illustration */}
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <div className="relative h-full w-full flex items-center justify-center">
                 <div className="bg-white p-4 rounded-lg shadow-xl transform rotate-3 absolute z-10">
                   <div className="w-80 h-60 bg-indigo-100 rounded overflow-hidden">
@@ -73,6 +74,14 @@ const HeroSection = () => {
                   </div>
                 </div>
               </div>
+            </div> */}
+
+            <div className="bg-wh flex justify-center relative">
+              <div className="rounded-full overflow-hidden w-[400px] z-20 border-2 border-black shadow-2xl">
+                <img src={assets.heero} alt="" />
+              </div>
+              <div className="absolute w-[300px] h-[300px] bg-blue-400 rounded-full right-0 z-10 "></div>
+              <div className="absolute w-[300px] h-[300px] bg-yellow-400 rounded-full left-0 bottom-0 z-10 "></div>
             </div>
           </div>
         </div>

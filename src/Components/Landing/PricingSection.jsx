@@ -8,9 +8,10 @@ const pricingPlans = [
         price: "₦1,000",
         duration: "/subject",
         features: ["App access", "AI instructor", "Offline use"],
-        bgGradient: "bg-gradient-to-r from-blue-500 to-indigo-500",
-        buttonColor: "bg-blue-600 hover:bg-blue-800",
+        bgGradient: "bg-gradient-to-r from-purple-500 to-purple-500",
+        buttonColor: "bg-purple-600 hover:bg-purple-800",
         ctaText: "Get the App",
+        checkColor: 'text-purple-600'
     },
     {
         title: "Adult Literacy",
@@ -20,6 +21,7 @@ const pricingPlans = [
         bgGradient: "bg-gradient-to-r from-green-500 to-emerald-500",
         buttonColor: "bg-green-600 hover:bg-green-800",
         ctaText: "Join Now",
+        checkColor: 'text-green-600'
     },
 ];
 
@@ -57,7 +59,7 @@ const PricingSection = () => {
                             <ul className="text-left space-y-3 mb-6">
                                 {plan.features.map((feature, idx) => (
                                     <li key={idx} className="flex items-center">
-                                        <FaCircleCheck className="mr-2 text-blue-600 w-[12%]" />
+                                        <FaCircleCheck className={`mr-2 ${plan.checkColor} w-[12%]`} />
                                         <span className="w-[88%] text-gray-800 font-medium">{feature}</span>
                                     </li>
                                 ))}

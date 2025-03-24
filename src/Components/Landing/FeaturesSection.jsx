@@ -64,7 +64,7 @@ const FeaturesSection = () => {
         <div className="mt-16 flex justify-center">
           <Link
             to="/features"
-            className="inline-flex items-center px-6 py-3 text-lg font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition"
+            className="inline-flex items-center px-6 py-3 text-lg font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700 transition"
           >
             Learn More
           </Link>

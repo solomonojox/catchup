@@ -1,6 +1,7 @@
 import logo from './logo.png';
 import hero2 from '../Assets/hero2.jpg'
 import hero3 from '../Assets/hero3.avif'
+import heero from '../Assets/heero.jpg'
 import services from '../Assets/services.png'
 import contact_us from '../Assets/contact-us.jpg'
 import ceo from '../Assets/ceo.jpg'
@@ -15,6 +16,7 @@ const assets = {
     logo,
     hero2,
     hero3,
+    heero,
     services,
     contact_us,
     ceo,
@@ -23,7 +25,7 @@ const assets = {
     waitecclogo,
     testimony1,
     testimony2,
-    testimony3
+    testimony3,
 }
 
 export default assets;
