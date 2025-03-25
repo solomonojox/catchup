@@ -77,11 +77,11 @@ const HeroSection = () => {
             </div> */}
 
             <div className="bg-wh flex justify-center relative">
-              <div className="rounded-full overflow-hidden w-[400px] z-20 border-2 border-black shadow-2xl">
+              <div className="rounded-full overflow-hidden w-[400px] z-20 border-2 border-gray-400 shadow-2xl">
                 <img src={assets.heero} alt="" />
               </div>
-              <div className="absolute w-[300px] h-[300px] bg-blue-400 rounded-full right-0 z-10 "></div>
-              <div className="absolute w-[300px] h-[300px] bg-yellow-400 rounded-full left-0 bottom-0 z-10 "></div>
+              <div className="absolute w-[250px] h-[250px] bg-blue-400 rounded-full right-0 z-10 "></div>
+              <div className="absolute w-[250px] h-[250px] bg-yellow-400 rounded-full left-0 bottom-0 z-10 "></div>
             </div>
           </div>
         </div>

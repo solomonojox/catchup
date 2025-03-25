@@ -4,9 +4,19 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const pricingPlans = [
     {
-        title: "Primary & Secondary",
+        title: "Common Entrance",
         price: "₦1,000",
-        duration: "/subject",
+        duration: "/subject/year",
+        features: ["App access", "AI instructor", "Offline use"],
+        bgGradient: "bg-gradient-to-r from-purple-500 to-purple-500",
+        buttonColor: "bg-purple-600 hover:bg-purple-800",
+        ctaText: "Get the App",
+        checkColor: 'text-purple-600'
+    },
+    {
+        title: "WAEC & GCE",
+        price: "₦1,000",
+        duration: "/subject/year",
         features: ["App access", "AI instructor", "Offline use"],
         bgGradient: "bg-gradient-to-r from-purple-500 to-purple-500",
         buttonColor: "bg-purple-600 hover:bg-purple-800",
@@ -27,7 +37,7 @@ const pricingPlans = [
 
 const PricingSection = () => {
     return (
-        <div className="flex flex-col items-center flex-wrap gap-8 py-12 bg-gradient-to-b from-gray-100 to-gray-300 min-h-screen">
+        <div className="flex flex-col items-center flex-wrap gap-8 py-12 bg-gradient-to-b from-gray-50 to-gray-100 min-h-screen">
             <motion.h1
                 className="text-[3vmax] md:text-[2vmax] font-bold text-gray-900"
                 initial={{ opacity: 0, y: -30 }}
