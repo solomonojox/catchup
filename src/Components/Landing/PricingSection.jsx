@@ -7,7 +7,7 @@ const pricingPlans = [
         title: "Common Entrance",
         price: "₦1,000",
         duration: "/subject/year",
-        features: ["App access", "AI instructor", "Offline use"],
+        features: ["App access", "AI instructor", "Offline use", "Download all subject for ₦5,000/year"],
         bgGradient: "bg-gradient-to-r from-purple-500 to-purple-500",
         buttonColor: "bg-purple-600 hover:bg-purple-800",
         ctaText: "Get the App",
@@ -17,7 +17,7 @@ const pricingPlans = [
         title: "WAEC & GCE",
         price: "₦1,000",
         duration: "/subject/year",
-        features: ["App access", "AI instructor", "Offline use"],
+        features: ["App access", "AI instructor", "Offline use", "Download all subject for ₦5,000/year"],
         bgGradient: "bg-gradient-to-r from-purple-500 to-purple-500",
         buttonColor: "bg-purple-600 hover:bg-purple-800",
         ctaText: "Get the App",
@@ -55,12 +55,12 @@ const PricingSection = () => {
                         className={`relative rounded-lg shadow-xl overflow-hidden w-[320px] transition-all duration-300`}
                     >
                         {/* Background Gradient */}
-                        <div className={`${plan.bgGradient} p-6 h-32 text-center text-white`}>
+                        <div className={`${plan.bgGradient} p-6 h-24 text-center text-white`}>
                             <h2 className="text-3xl font-bold">{plan.title}</h2>
                         </div>
 
                         {/* Glassmorphism Pricing Card */}
-                        <div className="bg-white/80 h-[300px] backdrop-blur-md p-6 shadow-md rounded-b-lg">
+                        <div className="bg-white/80 h-[340px] backdrop-blur-md p-6 shadow-md rounded-b-lg">
                             <p className="text-4xl font-extrabold text-gray-900 mb-4">
                                 {plan.price}
                                 <span className="text-lg font-medium text-gray-600">{plan.duration}</span>
